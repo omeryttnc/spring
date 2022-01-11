@@ -42,8 +42,8 @@ public class US_04_Test_DeleteTest {
         response.prettyPrint();
     }
 
-    @Test
-    @EnabledOnOs(OS.LINUX)
+   // @Test
+  //  @EnabledOnOs(OS.LINUX)
     public void TC0301(){
         response = given().accept(ContentType.JSON).when().get(endPoint);
         jsonPath = response.jsonPath();
