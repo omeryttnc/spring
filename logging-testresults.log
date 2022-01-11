@@ -184,3 +184,196 @@
 11-01-2022 10:23:04.160 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
 11-01-2022 10:23:04.253 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC003001 ***  17: 
 11-01-2022 10:23:04.256 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage3BrowserTest {SUCCESSFUL=4}
+11-01-2022 11:28:00.378 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Starting HomePage2BrowserTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 4452 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 11:28:00.380 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : No active profile set, falling back to default profiles: default
+11-01-2022 11:28:02.309 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Started HomePage2BrowserTest in 2.61 seconds (JVM running for 12.023)
+11-01-2022 11:28:03.282 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser TC004004 test  ***  14
+11-01-2022 11:28:12.664 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 11:28:12.829 Z      WARN 4452 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Failed for test TC004004: 
+11-01-2022 11:28:12.852 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 11:28:12.862 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 11:28:14.057 Z      INFO 4452 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 11:28:14.293 Z      INFO 4452 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {FAILED=1}
+11-01-2022 11:29:34.190 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Starting HomePage2BrowserTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 10452 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 11:29:34.191 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : No active profile set, falling back to default profiles: default
+11-01-2022 11:29:36.016 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Started HomePage2BrowserTest in 2.385 seconds (JVM running for 11.63)
+11-01-2022 11:29:36.960 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser TC004004 test  ***  14
+11-01-2022 11:29:44.561 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 11:29:44.678 Z      WARN 10452 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Failed for test TC004004: 
+11-01-2022 11:29:44.696 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 11:29:44.708 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 11:29:45.884 Z      INFO 10452 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 11:29:46.113 Z      INFO 10452 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {FAILED=1}
+11-01-2022 11:33:31.801 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.s.d.test.suite3.HomePage2BrowserTest   : Starting HomePage2BrowserTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 856 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 11:33:31.802 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.s.d.test.suite3.HomePage2BrowserTest   : No active profile set, falling back to default profiles: default
+11-01-2022 11:33:33.586 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.s.d.test.suite3.HomePage2BrowserTest   : Started HomePage2BrowserTest in 2.437 seconds (JVM running for 12.905)
+11-01-2022 11:33:34.541 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : open browser TC004003 test  ***  16
+11-01-2022 11:33:34.542 Z      INFO 856 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser TC004005 test  ***  14
+11-01-2022 11:33:34.542 Z      INFO 856 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : open browser TC004001 test ***  15
+11-01-2022 11:33:34.541 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC004002 test  ***  17
+11-01-2022 11:33:47.649 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  16
+11-01-2022 11:33:47.690 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 11:33:47.813 Z      INFO 856 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC004003 ***  16: 
+11-01-2022 11:33:47.886 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC004002 ***  17: 
+11-01-2022 11:33:48.114 Z      INFO 856 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 11:33:48.176 Z      INFO 856 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 11:33:48.189 Z      INFO 856 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 11:33:48.305 Z      INFO 856 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  15
+11-01-2022 11:33:48.464 Z      INFO 856 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC004005 ***  14: 
+11-01-2022 11:33:48.521 Z      INFO 856 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC004001 ***  15: 
+11-01-2022 11:33:49.936 Z      INFO 856 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 11:33:49.957 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC004004 test  ***  17
+11-01-2022 11:33:57.296 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 11:33:57.419 Z      INFO 856 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC004004 ***  17: 
+11-01-2022 11:33:57.430 Z      INFO 856 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {SUCCESSFUL=5}
+11-01-2022 12:36:47.184 Z      INFO 14044 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Starting HomePage2BrowserTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 14044 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 12:36:47.200 Z      INFO 14044 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : No active profile set, falling back to default profiles: default
+11-01-2022 12:36:49.374 Z      INFO 14044 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Started HomePage2BrowserTest in 2.731 seconds (JVM running for 15.804)
+11-01-2022 12:36:49.499 Z     ERROR 14044 --- [ForkJoinPool-1-worker-3] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1944b30f] to prepare test instance [spring.selenium.demo.test.suite3.HomePage2BrowserTest@54902569]
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.selenium.demo.test.suite3.HomePage2BrowserTest': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'alici_username)' in value "${alici_username)}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'alici_username)' in value "${alici_username)}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1330)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 62 common frames omitted
+
+11-01-2022 12:36:49.561 Z      WARN 14044 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Failed for test TC004006: 
+11-01-2022 12:36:50.559 Z      INFO 14044 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {FAILED=1}
+11-01-2022 12:38:29.719 Z      INFO 11244 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Starting HomePage2BrowserTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 11244 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 12:38:29.719 Z      INFO 11244 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : No active profile set, falling back to default profiles: default
+11-01-2022 12:38:31.729 Z      INFO 11244 --- [ForkJoinPool-1-worker-3] s.s.d.test.suite3.HomePage2BrowserTest   : Started HomePage2BrowserTest in 2.613 seconds (JVM running for 12.672)
+11-01-2022 12:40:57.028 Z      INFO 11244 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 12:41:01.154 Z      WARN 11244 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Failed for test TC004006: 
+11-01-2022 12:41:01.367 Z      WARN 11244 --- [ForkJoinPool-1-worker-3] o.j.j.e.d.MethodBasedTestDescriptor      : Failed to invoke TestWatcher [spring.selenium.demo.config.TestResultLoggerExtension] for method [spring.selenium.demo.test.suite3.HomePage2BrowserTest#AddProductFromMap()] with display name [TC004006]
+
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SVJGT9O', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\savsa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 36d7182709940056def9c2a23a94138e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at spring.selenium.demo.driver.DriverFactoryImplementation.removeDriver(DriverFactoryImplementation.java:30)
+	at spring.selenium.demo.config.TestResultLoggerExtension.testFailed(TestResultLoggerExtension.java:48)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$nodeFinished$15(TestMethodTestDescriptor.java:303)
+	at org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor.lambda$invokeTestWatchers$3(MethodBasedTestDescriptor.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor.invokeTestWatchers(MethodBasedTestDescriptor.java:132)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.nodeFinished(TestMethodTestDescriptor.java:294)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.nodeFinished(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.reportCompletion(NodeTestTask.java:188)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+11-01-2022 12:41:01.665 Z      INFO 11244 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {FAILED=1}

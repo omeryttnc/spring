@@ -9,8 +9,12 @@ public class PageFactory {
     public HomePage getHomePage() {
         return new HomePage();
     }
+
     public LoginPage getLoginPage() {
         return new LoginPage();
+    }
+
+    public CartPage getCartPage() { return new CartPage();
     }
 
 }
