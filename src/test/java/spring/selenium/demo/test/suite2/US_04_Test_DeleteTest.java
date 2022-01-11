@@ -46,6 +46,7 @@ public class US_04_Test_DeleteTest {
   //  @EnabledOnOs(OS.LINUX)
     public void TC0301(){
 
+
         response = given().accept(ContentType.JSON).when().get(endPoint);
         jsonPath = response.jsonPath();
         int sizeOfData = jsonPath.getInt("meta.pagination.total");

@@ -76,3 +76,111 @@
 11-01-2022 09:44:05.191 Z      INFO 4316 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
 11-01-2022 09:44:05.292 Z      INFO 4316 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001002 ***  17: 
 11-01-2022 09:44:05.295 Z      INFO 4316 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePageBrowserTest {SUCCESSFUL=5}
+11-01-2022 10:20:48.024 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.test.suite2.US_02_Test_PostTest    : Starting US_02_Test_PostTest using Java 11.0.11 on DESKTOP-SVJGT9O with PID 8996 (started by savsa in C:\Users\savsa\IdeaProjects\com.spring.test)
+11-01-2022 10:20:48.026 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.test.suite2.US_02_Test_PostTest    : No active profile set, falling back to default profiles: default
+11-01-2022 10:20:48.459 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:20:48.493 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:20:48.530 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:20:48.532 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:20:50.921 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.test.suite2.US_02_Test_PostTest    : Started US_02_Test_PostTest in 3.769 seconds (JVM running for 9.4)
+11-01-2022 10:20:53.248 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:20:53.328 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : open browser TC002005 test  ***  16
+11-01-2022 10:20:53.540 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:20:53.561 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser for TC001005 test =>>  14
+11-01-2022 10:20:59.714 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0104() ***  17: 
+11-01-2022 10:21:02.202 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0206() ***  15: 
+11-01-2022 10:21:03.515 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0103() ***  17: 
+11-01-2022 10:21:04.286 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0205() ***  15: 
+11-01-2022 10:21:04.657 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0102() ***  17: 
+11-01-2022 10:21:05.633 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0204() ***  15: 
+11-01-2022 10:21:06.172 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0101() ***  17: 
+11-01-2022 10:21:06.181 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test result summary for US_01_Test_GetTest {SUCCESSFUL=4}
+11-01-2022 10:21:06.190 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [spring.selenium.demo.test.suite1.HomePage3BrowserTest], using SpringBootContextLoader
+11-01-2022 10:21:06.192 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [spring.selenium.demo.test.suite1.HomePage3BrowserTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11-01-2022 10:21:06.193 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [spring.selenium.demo.test.suite1.HomePage3BrowserTest]: HomePage3BrowserTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11-01-2022 10:21:06.197 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration spring.selenium.demo.DemoApplication for test class spring.selenium.demo.test.suite1.HomePage3BrowserTest
+11-01-2022 10:21:06.202 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11-01-2022 10:21:06.205 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@292f25ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@625feef0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e287bb3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2e2d28e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7efdf001, org.springframework.test.context.event.EventPublishingTestExecutionListener@6348a940, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e60b379, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@794dd64b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@68214c9b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e05fa76, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@754563b4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@622d1cd9]
+11-01-2022 10:21:06.226 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:06.237 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:06.938 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0203() ***  15: 
+11-01-2022 10:21:08.341 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:08.356 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC003004 test  ***  17
+11-01-2022 10:21:08.551 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0202() ***  15: 
+11-01-2022 10:21:10.526 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test tc0201() ***  15: 
+11-01-2022 10:21:10.529 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test result summary for US_02_Test_PostTest {SUCCESSFUL=6}
+11-01-2022 10:21:10.548 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:10.557 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:11.426 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  16
+11-01-2022 10:21:12.607 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC002005 ***  16: 
+11-01-2022 10:21:12.625 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:12.640 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:12.868 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:12.883 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : open browser for TC001001 test =>>  15
+11-01-2022 10:21:14.424 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:14.434 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : open browser TC002004 test  ***  16
+11-01-2022 10:21:17.427 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 10:21:17.529 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001005 ***  14: 
+11-01-2022 10:21:17.544 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:17.553 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:18.849 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:18.861 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser for TC001004 test =>>  14
+11-01-2022 10:21:31.697 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 10:21:31.808 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC003004 ***  17: 
+11-01-2022 10:21:31.825 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:31.834 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:33.041 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:33.057 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC003003 test  ***  17
+11-01-2022 10:21:47.154 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  15
+11-01-2022 10:21:47.243 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001001 ***  15: 
+11-01-2022 10:21:47.258 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:47.267 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:48.461 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:48.468 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : open browser for TC001002 test =>>  15
+11-01-2022 10:21:57.681 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  16
+11-01-2022 10:21:57.861 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC002004 ***  16: 
+11-01-2022 10:21:57.891 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:21:57.900 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:21:59.107 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:21:59.118 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : open browser TC002003 test  ***  16
+11-01-2022 10:22:02.376 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 10:22:02.476 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001004 ***  14: 
+11-01-2022 10:22:02.499 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:22:02.507 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:22:03.741 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:22:03.749 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : open browser for TC001003 test =>>  14
+11-01-2022 10:22:11.768 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 10:22:11.910 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC003003 ***  17: 
+11-01-2022 10:22:11.930 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:22:11.939 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:22:13.294 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:22:13.346 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC003002 test  ***  17
+11-01-2022 10:22:18.896 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  15
+11-01-2022 10:22:18.986 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001002 ***  15: 
+11-01-2022 10:22:19.003 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:22:19.011 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:22:20.228 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:22:20.240 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : open browser TC002001 test ***  15
+11-01-2022 10:22:29.661 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  16
+11-01-2022 10:22:29.777 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC002003 ***  16: 
+11-01-2022 10:22:29.802 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:22:29.810 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:22:30.942 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:22:30.951 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : open browser TC002002 test  ***  16
+11-01-2022 10:22:39.587 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 10:22:39.701 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC003002 ***  17: 
+11-01-2022 10:22:39.716 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+11-01-2022 10:22:39.733 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\savsa\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+11-01-2022 10:22:40.863 Z      INFO 8996 --- [Forwarding newSession on session null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+11-01-2022 10:22:40.870 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : open browser TC003001 test ***  17
+11-01-2022 10:22:41.223 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  14
+11-01-2022 10:22:41.323 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC001003 ***  14: 
+11-01-2022 10:22:41.325 Z      INFO 8996 --- [ForkJoinPool-1-worker-3] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePageBrowserTest {SUCCESSFUL=5}
+11-01-2022 10:22:43.687 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  15
+11-01-2022 10:22:43.778 Z      INFO 8996 --- [ForkJoinPool-1-worker-5] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC002001 ***  15: 
+11-01-2022 10:23:00.573 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  16
+11-01-2022 10:23:00.684 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC002002 ***  16: 
+11-01-2022 10:23:00.687 Z      INFO 8996 --- [ForkJoinPool-1-worker-7] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage2BrowserTest {SUCCESSFUL=5}
+11-01-2022 10:23:04.160 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.selenium.demo.test.BrowserTestBase     : tear down method worked.. thread ID =>  17
+11-01-2022 10:23:04.253 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test Successful for test TC003001 ***  17: 
+11-01-2022 10:23:04.256 Z      INFO 8996 --- [ForkJoinPool-1-worker-1] s.s.d.config.TestResultLoggerExtension   : Test result summary for HomePage3BrowserTest {SUCCESSFUL=4}
