@@ -32,8 +32,8 @@ public class HomePage3BrowserTest extends BrowserTestBase {
     @DisplayName("TC003001")
     public void OpenBrowser1()  {
         LOG.info("open browser TC003001 test ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
@@ -42,8 +42,8 @@ public class HomePage3BrowserTest extends BrowserTestBase {
     @DisplayName("TC003002")
     public void OpenBrowser2()  {
         LOG.info("open browser TC003002 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
@@ -52,8 +52,8 @@ public class HomePage3BrowserTest extends BrowserTestBase {
     @DisplayName("TC003003")
     public void OpenBrowser3()  {
         LOG.info("open browser TC003003 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
@@ -62,8 +62,8 @@ public class HomePage3BrowserTest extends BrowserTestBase {
     @DisplayName("TC003004")
     public void OpenBrowser4()  {
         LOG.info("open browser TC003004 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();

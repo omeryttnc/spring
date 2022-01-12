@@ -34,7 +34,7 @@ public class HomePageBrowserTest extends BrowserTestBase {
     public void OpenBrowser1()  {
         LOG.info("open browser for TC001001 test =>>  " + Thread.currentThread().getId());
         DriverFactoryImplementation.getInstance().getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("kavgam");
         actions.sendKeys(Keys.ENTER).perform();
@@ -45,8 +45,8 @@ public class HomePageBrowserTest extends BrowserTestBase {
     @DisplayName("TC001002")
     public void OpenBrowser2()  {
         LOG.info("open browser for TC001002 test =>>  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("nutuk");
         actions.sendKeys(Keys.ENTER).perform();
@@ -55,8 +55,8 @@ public class HomePageBrowserTest extends BrowserTestBase {
     @DisplayName("TC001003")
     public void OpenBrowser3()  {
         LOG.info("open browser for TC001003 test =>>  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("ingilizce");
         actions.sendKeys(Keys.ENTER).perform();
@@ -67,8 +67,8 @@ public class HomePageBrowserTest extends BrowserTestBase {
     @DisplayName("TC001004")
     public void OpenBrowser4()  {
         LOG.info("open browser for TC001004 test =>>  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("almanca");
         actions.sendKeys(Keys.ENTER).perform();
@@ -78,8 +78,8 @@ public class HomePageBrowserTest extends BrowserTestBase {
     @DisplayName("TC001005")
     public void OpenBrowser5()  {
         LOG.info("open browser for TC001005 test =>>  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
         pageFactory.getHomePage().searchBox.sendKeys("yunanca");
         actions.sendKeys(Keys.ENTER).perform();

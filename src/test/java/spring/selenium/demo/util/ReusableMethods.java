@@ -4,6 +4,8 @@ package spring.selenium.demo.util;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.*;
+import org.openqa.selenium.html5.LocalStorage;
+import org.openqa.selenium.html5.WebStorage;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spring.selenium.demo.config.TestResultLoggerExtension;
 import spring.selenium.demo.driver.DriverFactoryImplementation;
+import spring.selenium.demo.pages.PageFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -213,7 +216,65 @@ public abstract class ReusableMethods {
         return x;
     }
 
+    public static void localClear() {
+        LocalStorage local = ((WebStorage) DriverFactoryImplementation.getInstance().getDriver()).getLocalStorage();
+        local.clear();
+        DriverFactoryImplementation.getInstance().getDriver().navigate().refresh();
+        ReusableMethods.waitForPageToLoad(10);
 
+    }
+    public static void clickWithJS(WebElement element) {
+        ((JavascriptExecutor) DriverFactoryImplementation.getInstance().getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) DriverFactoryImplementation.getInstance().getDriver()).executeScript("arguments[0].click();", element);
+    }
+    public static boolean isElementVisible(WebElement webElement) {
+        try {
+            webElement.isDisplayed();
+            return true;
+        } catch (NoSuchElementException var2) {
+            return false;
+        }
+    }
 
+    public static boolean isExist(WebElement element) {
+        boolean b;
+        try {
+            b = element.isDisplayed() || !element.isDisplayed();
+        } catch (Exception var3) {
+            b = false;
+        }
 
+        return b;
+    }
+
+//
+//    public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
+//        WebDriverWait wait = new WebDriverWait(DriverFactoryImplementation.getInstance().getDriver(), timeToWaitInSec);
+//        return wait.until(ExpectedConditions.visibilityOf(element));
+//    }
+//
+//    public static WebElement waitForVisibility(By locator, int timeout) {
+//        WebDriverWait wait = new WebDriverWait(DriverFactoryImplementation.getInstance().getDriver(), timeout);
+//        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+//    }
+//
+//    public static Boolean waitForInVisibility(By locator, int timeout) {
+//        WebDriverWait wait = new WebDriverWait(DriverFactoryImplementation.getInstance().getDriver(), timeout);
+//        return wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+//    }
+////
+//    public static WebElement waitForClickablility(WebElement element, int timeout) {
+//        WebDriverWait wait = new WebDriverWait(DriverFactoryImplementation.getInstance().getDriver(), timeout);
+//        return wait.until(ExpectedConditions.elementToBeClickable(element));
+//    }
+//
+//    public static WebElement waitForClickablility(By locator, int timeout) {
+//        WebDriverWait wait = new WebDriverWait(DriverFactoryImplementation.getInstance().getDriver(), timeout);
+//        return wait.until(ExpectedConditions.elementToBeClickable(locator));
+//    }
+
+    public static void refreshPage() {
+        DriverFactoryImplementation.getInstance().getDriver().navigate().refresh();
+
+    }
 }

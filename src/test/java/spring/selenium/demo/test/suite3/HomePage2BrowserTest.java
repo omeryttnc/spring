@@ -15,9 +15,7 @@ import spring.selenium.demo.test.BrowserTestBase;
 import spring.selenium.demo.util.ReusableMethods;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @SpringBootTest
 @Epic("EP002")
@@ -42,10 +40,10 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004001")
     public void OpenBrowser1() {
         LOG.info("open browser TC004001 test ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
-        pageFactory.getHomePage().searchBox.sendKeys("test1");
+        elements.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
     }
 
@@ -53,10 +51,10 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004002")
     public void OpenBrowser2() {
         LOG.info("open browser TC004002 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
-        pageFactory.getHomePage().searchBox.sendKeys("test1");
+        elements.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
     }
 
@@ -64,10 +62,10 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004003")
     public void OpenBrowser3() {
         LOG.info("open browser TC004003 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
-        pageFactory.getHomePage().searchBox.sendKeys("test1");
+        elements.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
     }
 
@@ -75,10 +73,10 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004004")
     public void OpenBrowser4() {
         LOG.info("open browser TC004004 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(URBAN_HOME);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Urbanic Farm"),
+        Driver.getDriver().get(URBAN_HOME);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Urbanic Farm"),
                 "Page title is not correct");
-        // pageFactory.getHomePage().searchBox.sendKeys("test1");
+        // elements.getHomePage().searchBox.sendKeys("test1");
         //actions.sendKeys(Keys.ENTER).perform();
     }
 
@@ -86,10 +84,10 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004005")
     public void OpenBrowser5() {
         LOG.info("open browser TC004005 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(HOME_PAGE);
-        Assertions.assertTrue(webDriverForTest.getDriver().getTitle().contains("Amazon"),
+        Driver.getDriver().get(HOME_PAGE);
+        Assertions.assertTrue(Driver.getDriver().getTitle().contains("Amazon"),
                 "Page title is not correct");
-        pageFactory.getHomePage().searchBox.sendKeys("test1");
+        elements.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
     }
 
@@ -98,34 +96,34 @@ public class HomePage2BrowserTest extends BrowserTestBase {
     @DisplayName("TC004006")
     public void AddProductFromMap() {
         LOG.info("open browser TC004006 test  ***  " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().get(URBAN_HOME);
+        Driver.getDriver().get(URBAN_HOME);
         ReusableMethods.waitForPageToLoad(20);
         ReusableMethods.waitFor(3);
-        pageFactory.getLoginPage().loginEmailBox.sendKeys(alici_username);
-        pageFactory.getLoginPage().loginPasswordBox.sendKeys(alici_password);
-        pageFactory.getLoginPage().loginButton.click();
+        elements.getLoginPage().loginEmailBox.sendKeys(alici_username);
+        elements.getLoginPage().loginPasswordBox.sendKeys(alici_password);
+        elements.getLoginPage().loginButton.click();
         ReusableMethods.waitFor(5);
         ReusableMethods.waitFor(2);
 
         List<String> ProductList_fromMap = new ArrayList<>();
         List<String> ProductList_fromCart = new ArrayList<>();
-        for (int i = 0; i < pageFactory.getHomePage().addToCart_List.size(); i++) {
+        for (int i = 0; i < elements.getHomePage().addToCart_List.size(); i++) {
             ReusableMethods.waitFor(5);
-            ReusableMethods.waitForClickablility(pageFactory.getHomePage().addToCart_List.get(i), 100);
-            actions.moveToElement(pageFactory.getHomePage().addToCart_List.get(i));
-           (pageFactory.getHomePage().addToCart_List.get(i)).click();
+            ReusableMethods.waitForClickablility(elements.getHomePage().addToCart_List.get(i), 100);
+            actions.moveToElement(elements.getHomePage().addToCart_List.get(i));
+           (elements.getHomePage().addToCart_List.get(i)).click();
             ReusableMethods.waitFor(3);
-            if (pageFactory.getCartPage().toast_message.getText().contains("added to your basket")) {
-                ProductList_fromMap.add(pageFactory.getHomePage().productName_List.get(i).getText());
+            if (elements.getCartPage().toast_message.getText().contains("added to your basket")) {
+                ProductList_fromMap.add(elements.getHomePage().productName_List.get(i).getText());
             }
         }
-        if (pageFactory.getHomePage().popUp.isDisplayed()) {
-            pageFactory.getHomePage().popUp.click();
+        if (elements.getHomePage().popUp.isDisplayed()) {
+            elements.getHomePage().popUp.click();
         }
         ReusableMethods.waitFor(3);
-        pageFactory.getHomePage().addToCartButton.click();
-        for (int q = 0; q < pageFactory.getCartPage().productNames_intheCart_list.size(); q++) {
-            ProductList_fromCart.add(pageFactory.getCartPage().productNames_intheCart_list.get(q).getText());
+        elements.getHomePage().addToCartButton.click();
+        for (int q = 0; q < elements.getCartPage().productNames_intheCart_list.size(); q++) {
+            ProductList_fromCart.add(elements.getCartPage().productNames_intheCart_list.get(q).getText());
         }
         for (int i = 0; i < ProductList_fromMap.size(); i++) {
             int finalI = i;
@@ -133,7 +131,7 @@ public class HomePage2BrowserTest extends BrowserTestBase {
         }
         ReusableMethods.waitFor(2);
 
-        //  pageFactory.getLoginPage().logout();
+        //  elements.getLoginPage().logout();
 
     }
 

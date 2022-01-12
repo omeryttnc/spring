@@ -20,21 +20,21 @@ public class BrowserTestBase {
 
     protected final Actions actions = new Actions(DriverFactoryImplementation.getInstance().getDriver());
     protected static final Logger LOG = LoggerFactory.getLogger(BrowserTestBase.class);
-    protected final DriverFactory webDriverForTest = new DriverFactoryImplementation();
+    protected final DriverFactory Driver = new DriverFactoryImplementation();
 
     @Autowired
-    protected PageFactory pageFactory;
+    protected PageFactory elements;
 
     @Before
     public void before() {
         LOG.info("before method initialized.. thread ID => " + Thread.currentThread().getId());
-        webDriverForTest.getDriver().manage().timeouts().implicitlyWait(Integer.MAX_VALUE, TimeUnit.SECONDS);
+        Driver.getDriver().manage().timeouts().implicitlyWait(Integer.MAX_VALUE, TimeUnit.SECONDS);
     }
 
     @AfterEach
     public void tearDown () {
         LOG.info("tear down method worked.. thread ID =>  " + Thread.currentThread().getId());
-        webDriverForTest.removeDriver();
+        Driver.removeDriver();
     }
 
 

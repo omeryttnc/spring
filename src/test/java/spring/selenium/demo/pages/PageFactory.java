@@ -14,7 +14,12 @@ public class PageFactory {
         return new LoginPage();
     }
 
-    public CartPage getCartPage() { return new CartPage();
+    public CartPage getCartPage() {
+        return new CartPage();
+    }
+
+    public MailPage getMailPage() {
+        return new MailPage();
     }
 
 }

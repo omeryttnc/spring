@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import spring.selenium.demo.driver.DriverFactoryImplementation;
+import spring.selenium.demo.util.ReusableMethods;
 
 import java.util.List;
 
@@ -62,5 +63,17 @@ public class LoginPage {
     @FindBy(xpath = "//a[@class='col-6 AuthLayout_tab_header__a1Lli AuthLayout_tab_header_active__38vIi']]")
     public WebElement loginsection;
 
+    @FindBy(css = "a.Navbar_textLink__f6_Al.ml-2.mr-4")
+    public WebElement logoutButton;
+    public void login(String username, String password) {
+        loginEmailBox.sendKeys(username);
+        loginPasswordBox.sendKeys(password);
+        loginButton.click();
+        ReusableMethods.waitFor(3);
+    }
+
+    public  void logout() {
+        logoutButton.click();
+    }
 
 }
