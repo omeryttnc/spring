@@ -44,6 +44,7 @@ public class HomePage2BrowserTest extends BrowserTestBase {
                 "Page title is not correct");
         elements.getHomePage().searchBox.sendKeys("test1");
         actions.sendKeys(Keys.ENTER).perform();
+        System.out.println("dd");
     }
     @Test
     @DisplayName("TC002003")
